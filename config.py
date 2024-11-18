@@ -1,5 +1,9 @@
 import os
 
+from dotenv import load_dotenv  # type: ignore
+
+load_dotenv()
+
 def get_gosure_base_url():
     return os.environ.get("GOSURE_BASE_URL")
 
