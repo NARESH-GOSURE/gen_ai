@@ -1,0 +1,1 @@
+from config import get_gosure_base_url
